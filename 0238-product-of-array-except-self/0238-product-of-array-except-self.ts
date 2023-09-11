@@ -1,7 +1,7 @@
 function productExceptSelf(nums: number[]): number[] {
     
     let len = nums.length;
-    let answer = new Array(len).fill(1);
+    let answer = new Array(len);
     let prefix = 1;
     let postfix = 1;
 
